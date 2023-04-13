@@ -10,6 +10,7 @@ import Contact from "./contact.js"
 import Footer from "./footer.js";
 import Skills from "./skills.js";
 import Experience from "./experience.js";
+import Project from "./project.js"
 
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
-      <main className="  dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="back  md:px-20 lg:px-40">
         <CustomCursor />
         <Navbar />
         <section className="min-h-screen" id="home">
@@ -41,7 +42,8 @@ export default function Home() {
         <br /><br /><br /><br /><br /><br />
         <section id="projects">
           <h3 className="fontt animate-pulse text-7xl dark:text-teal-600 text-center">PROJECTS</h3><br /><br /><br /><br />
-        </section>
+          <Project />
+        </section><br /><br />
         <section id="contact">
           <Contact />
         </section>

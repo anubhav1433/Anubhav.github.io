@@ -29,17 +29,6 @@ a {
   
 }
 
-@keyframes slideInLeft {
-  from{
-    transform: translateX(-300px);
-  }
-  to{
-    transform: translateX(0);
-  }
-  
-}
-
-
 
 .top-btn {
     font-size: 2.4rem;
@@ -54,22 +43,6 @@ a {
     align-items: center;
     cursor: pointer;
 }
-
-@keyframes gototop {
-  0% {
-    transform: translateY(-0.5rem);
-  }
-  100% {
-    transform: translateY(1rem);
-  }
-}
-
-.main_base{
-  animation: 3s linear 1s infinite alternate slidein;
-}
-
-/* 
-.url {cursor: url(myBall.cur),auto;} */
 
 .wait {cursor: wait;}
 
@@ -86,20 +59,6 @@ a {
   mix-blend-mode: multiply;
   z-index: 10;
 }
-
-@media (max-width: 200px) {
-  .logo {
-    width: var(--container-width-sm);
-  }
-}
-
-/* .cursor {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}*/
 .cursor:nth-child(1) {
   background-color: #E74C3C;
   z-index: 1;
@@ -111,7 +70,7 @@ a {
 .cursor {
   width: 20px;
   height: 20px;
-  border: 1px solid white;
+  border: 1px solid red;
   border-radius: 50%;
   position: absolute;
   pointer-events: none;
@@ -122,11 +81,11 @@ a {
   width: 20px;
   height: 20px;
   position: absolute;
-  border: 2px solid blue;
+  border: 2px solid yellow;
   border-radius: 50%;
   opacity: .5;
-  top: -8px;
-  left: -8px;
+  top: 5px;
+  left: 5px;
   }
   @keyframes cursorAnim {
   0% {
@@ -144,11 +103,60 @@ a {
   animation: cursorAnim .5s forwards;
   }
 
-
-
- 
-  
   .nav.active {
     transform: translateY(0%);
   } 
   
+img:hover{
+    transform:scale(1.4);
+    
+}
+.textWithBlurredBg{
+    width:300px;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+    margin:4px;
+  }
+  
+.textWithBlurredBg img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+    border-radius:4px;
+    
+}
+  
+.textWithBlurredBg:hover img{
+  filter:blur(2px) brightness(20%);
+    box-shadow:0 0 16px cyan;
+}
+.textWithBlurredBg :not(img){
+    position:absolute;
+    z-index:1;
+    top:10%;
+    width:100%;
+    text-align:center;
+    color: teal;
+    opacity:0;
+    transition:.3s;
+    margin-bottom: 100px;
+    padding-bottom: 100;
+    background-color: rgb(17 24 39);;
+}
+  
+  .textWithBlurredBg:hover :not(img){
+    
+    opacity:1;
+  }
+
+  .project_container {
+    display: flex;
+    place-content: center space-between;
+    flex-wrap: wrap;
+  }
+
+.back{
+  background-image: url('../public/background.jpg');
+}
