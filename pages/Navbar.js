@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <nav className="py-10 ease-in-out 0.3s  mb-12 flex justify-between dark:text-gray-900 lg:py-4 lg:px-12">
-      <div className="hover:animate-spin lg:flex-growh-20 w-20 block mt-4 lg:inline-block lg:mt-0  py-2 rounded  mr-2 text-left fixed"><button onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }) }}><Image src={logo} className="scale-100" /></button></div>
+      <a href='#'><div className="hover:animate-spin lg:flex-growh-20 w-20 block mt-4 lg:inline-block lg:mt-0  py-2 rounded  mr-2 text-left fixed"><button><Image src={logo} className="scale-100" /></button></div></a>
       <div className='text-md text-center font-bold text-teal-600 lg:flex-grow sm:flex-shrink'>
         <ul className="flex ml-10 justify-center items-center h-16">
           {navItems.map((item) => (

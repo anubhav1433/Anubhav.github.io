@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div>
       <h3 className="fontt animate-pulse text-7xl dark:text-teal-600 text-center">CONTACT ME</h3>
-      <h6 className="text-center text-bold text-teal-600 mt-10">WANNA,TALK?? <br />CLICK THE ICONS BELOW TO CONTACT ME💬</h6>
+      <h6 className="text-center text-bold text-teal-600 mt-10"><br />CLICK THE ICONS BELOW TO CONTACT ME💬</h6>
       <div className="max-w-screen-xl px-4  pb-8 mx-auto lg:pb-16">
         <div className="flex  my-5 md:flex-row flex-col justify-around items-center">
           <div className="flex rounded-lg bg-orange-100 dark:bg-teal-600 p-4 mx-2 flex-wrap justify-evenly w-full md:w-[30rem]">
@@ -67,8 +67,8 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </div><div className="gototop">
-          <button className="top-btn animate-bounce" onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}>👆</button></div>
+        </div><div className="text-right">
+          <button className="top-btn animate-bounce  " onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}>👆</button></div>
       </div></div>
   );
 }
