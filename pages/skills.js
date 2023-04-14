@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Next from "../public/next.png"
 import { useState, useEffect } from "react";
+import CODE from "../public/code.png"
 import AOS from 'aos'
 
 
@@ -14,10 +15,10 @@ export default function Skills() {
 
     return (
         <div>
-            <h3 className="fontt animate-pulse text-7xl py-1  dark:text-teal-600 text-center">SKILLS</h3><br /><br /><br /><br /><br /><br />
+            <h3 data-aos="slide-up" className="fontt animate-pulse text-7xl py-1  dark:text-teal-600 text-center">SKILLS</h3><br /><br /><br /><br /><br /><br />
             <div  data-aos="slide-up" className="grid lg:grid-cols-2 gap-5 bg-gray-900">
                 <div  data-aos="slide-up">
-                    <h4  data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 dark:text-teal-600 text-center">Languages & Frameworks</h4><br /><br />
+                 <h4  data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 dark:text-teal-600 text-center">Languages & Frameworks</h4><br /><br />
                     <div className="grid grid-cols-4 gap-1 pl-20 ">
                         <a href="https://www.cprogramming.com/" className="hover:translate-y-[-10px]" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" /> </a>
                         <a href="https://www.w3schools.com/cpp/" className="hover:translate-y-[-10px]" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" /> </a>

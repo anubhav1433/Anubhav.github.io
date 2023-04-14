@@ -1,12 +1,20 @@
+
+import { useState, useEffect } from "react";
+import AOS from 'aos'
+
 export default function Contact() {
+  useEffect(() => {
+    AOS.init({
+    });
+  }, []);
   return (
     <div>
-      <h3 className="fontt animate-pulse text-7xl dark:text-teal-600 text-center">CONTACT ME</h3>
-      <h6 className="text-center text-bold text-teal-600 mt-10"><br />CLICK THE ICONS BELOW TO CONTACT ME💬</h6>
-      <div className="max-w-screen-xl px-4  pb-8 mx-auto lg:pb-16">
-        <div className="flex  my-5 md:flex-row flex-col justify-around items-center">
-          <div className="flex rounded-lg bg-orange-100 dark:bg-teal-600 p-4 mx-2 flex-wrap justify-evenly w-full md:w-[30rem]">
-            <div className="flex my-2 w-full">
+      <h3 data-aos="slide-up" className="fontt animate-pulse text-7xl dark:text-teal-600 text-center">CONTACT ME</h3>
+      <h6 data-aos="slide-up" className="text-center text-bold text-teal-600 mt-10"><br />CLICK THE ICONS BELOW TO CONTACT ME💬</h6>
+      <div  className="max-w-screen-xl px-4  pb-8 mx-auto lg:pb-16">
+        <div data-aos="slide-up" className="flex  my-5 md:flex-row flex-col justify-around items-center">
+          <div data-aos="slide-up" className="flex rounded-lg bg-orange-100 dark:bg-teal-600 p-4 mx-2 flex-wrap justify-evenly w-full md:w-[30rem]">
+            <div data-aos="slide-up" className="flex my-2 w-full">
               <a href="https://www.google.com/mymaps/viewer?mid=18GB7Rl7uBzsOSLw6l7uvnSlxOHo&hl=en_US"><svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" height="20" width="20" className="hover:translate-y-[-10px]"><path fill="currentColor" d="M288 896h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z" /><path fill="currentColor" d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z" /><path fill="currentColor" d="M544 384h96a32 32 0 1 1 0 64h-96v96a32 32 0 0 1-64 0v-96h-96a32 32 0 0 1 0-64h96v-96a32 32 0 0 1 64 0v96z" /></svg></a>
               <span className=" text-gray-400 text-md font-semibold">
                 <span className="text-lg dark:text-gray-300 text-gray-700">
@@ -16,20 +24,20 @@ export default function Contact() {
                 &nbsp;&nbsp;&nbsp;&nbsp;Konappana Agrahara, Electronic City, Bangalore - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;560100
               </span>
             </div><br /><br />
-            <div className="flex w-full">
+            <div data-aos="slide-up" className="flex w-full">
               <a href="https://anubhavmendhiratta@gmail.com/"><svg xmlns="http://www.w3.org/2000/svg" className="hover:translate-y-[-10px]" viewBox="0 0 30 30.000001" height="30" width="30" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 3.460938 6.5625 L 26.539062 6.5625 L 26.539062 24.707031 L 3.460938 24.707031 Z M 3.460938 6.5625 " clip-rule="nonzero" /></clipPath></defs><g clip-path="url(#id1)"><path fill="rgb(6.269836%, 5.879211%, 5.099487%)" d="M 24.230469 11.101562 L 15 16.769531 L 5.769531 11.101562 L 5.769531 8.832031 L 15 14.503906 L 24.230469 8.832031 Z M 24.230469 6.5625 L 5.769531 6.5625 C 4.492188 6.5625 3.472656 7.578125 3.472656 8.832031 L 3.460938 22.441406 C 3.460938 23.695312 4.492188 24.707031 5.769531 24.707031 L 24.230469 24.707031 C 25.507812 24.707031 26.539062 23.695312 26.539062 22.441406 L 26.539062 8.832031 C 26.539062 7.578125 25.507812 6.5625 24.230469 6.5625 " fill-opacity="1" fill-rule="nonzero" /></g></svg></a>
 
               <span className="text-md mx-2 font-semibold text-gray-700 dark:text-gray-300">
                 anubhavmendhiratta@gmail.com
               </span>
             </div><br /><br />
-            <div className="flex w-full ">
+            <div data-aos="slide-up" className="flex w-full ">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="hover:translate-y-[-10px] bi bi-phone" viewBox="0 0 16 16"> <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" /> <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" /> </svg>
               <span className="text-md mx-2 font-semibold text-gray-700 dark:text-gray-300">
                 &nbsp;+91-9955191792
               </span>
             </div>
-            <div className="pt-9">
+            <div data-aos="slide-up" className="pt-9">
               <div className="mb-9 flex text-gray-900 w-full justify-center ">
                 <a href="https://www.instagram.com/anubhav.mendhiratta143/" className="hover:translate-y-[-10px]">
                   <svg
@@ -67,8 +75,8 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </div><div className="text-right">
-          <button className="top-btn animate-bounce  " onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}>👆</button></div>
+        </div><div className="scroll text-right">
+          <button className="top-btn animate-bounce" onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}>👆</button></div>
       </div></div>
   );
 }

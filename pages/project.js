@@ -14,7 +14,7 @@ export default function Project(props) {
         });
     }, []);
     return (
-        <div className=" grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 ml-12">
+        <div className=" grid lg:grid-cols-3 gap-5 md:grid-cols-2  text-center">
             {projects.map((project) => (
                 <div key={project.id}>
 
