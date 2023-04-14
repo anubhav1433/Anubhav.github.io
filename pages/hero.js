@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="text-center">
             <h2 className="text-5xl text-teal-600 font-medium dark:text-teal-400 md:text-6xl text-left">
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi👋,I'm
+                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi👋,I&apos;m
             </h2>
             <div className=" from-teal-500">
                 <Image src={Intro} />

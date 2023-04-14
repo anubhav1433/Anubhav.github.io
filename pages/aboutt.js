@@ -20,7 +20,7 @@ export default function Aboutt() {
           <Image src={About} className="pd-50" />
         </div >
         <p className=" text-md pt-100 md:text-2xl leading-8 text-gray-800 dark:text-gray-200 ml-10">
-          I'm currently pursuing B.Tech in CSE from PES University, Bangalore.<br /><br />
+          I&apos;m currently pursuing B.Tech in CSE from PES University, Bangalore.<br /><br />
           Highly motivated and dedicated student with strong problem-solving and analytical skills<br /><br />
           A quick learner with
           excellent teamwork skills
