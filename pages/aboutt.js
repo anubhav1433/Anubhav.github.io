@@ -26,7 +26,7 @@ export default function Aboutt() {
           excellent teamwork skills
         </p>
         
-        <div className="text-teal-600 text-4xl border-solid"><button class="font-face my-20 ml-20 rounded-full" onClick={() => { window.scrollTo({ top: 5000, behavior: "smooth" }) }}>Ping Me: 📲</button></div>
+        <div className="text-teal-600 text-4xl border-solid"><button class="font-face my-20 ml-20 rounded-full" onClick={() => { window.scrollTo({ top: 500000, behavior: "smooth" }) }}>Ping Me: 📲</button></div>
 
       </div>
     </div>
