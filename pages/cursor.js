@@ -1,9 +1,9 @@
-import  React, { useEffect,useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 export default function CustomCursor() {
-    
-        const cursorRef = useRef(null)
-useEffect(() => {
+
+    const cursorRef = useRef(null)
+    useEffect(() => {
         if (cursorRef.current == null || cursorRef == null)
             return;
         document.addEventListener('mousemove', e => {
@@ -28,5 +28,5 @@ useEffect(() => {
     )
 
 
-  
+
 }

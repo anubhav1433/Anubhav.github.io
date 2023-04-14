@@ -1,14 +1,11 @@
-
 import Intro from "../public/avatar.gif"
 import Image from "next/image";
-
-
 
 export default function Hero() {
     return (
         <div className="text-center">
             <h2 className="text-5xl text-teal-600 font-medium dark:text-teal-400 md:text-6xl text-left">
-                Hi👋,<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm
+                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi👋,I'm
             </h2>
             <div className=" from-teal-500">
                 <Image src={Intro} />
@@ -17,9 +14,9 @@ export default function Hero() {
                 👨‍💻 Coding Enthusiast | Web Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                Looking to apply my skills to contribute to the growth of an organization.
-            </p>
-            <div className="pt-9">
+                {/* Looking to apply my skills to contribute to the growth of an organization. */}
+            </p><br/>
+            <div>
                 <div className=" mb-9 flex w-full justify-center ">
                     <a href="https://www.instagram.com/anubhav.mendhiratta143/" className="text-blue-800 hover:translate-y-[-10px]">
                         <svg
