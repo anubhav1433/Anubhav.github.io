@@ -52,11 +52,11 @@ a {
 .cursor {
   width: 20px;
   height: 20px;
-  border: 1px solid red;
+  border: 1px solid white;
   border-radius: 50%;
   position: absolute;
   pointer-events: none;
-  background-color: rgba(var(--color-cursor), 1);
+  background-color: white
   }
   .cursor::after {
   content: "";
@@ -86,7 +86,7 @@ a {
   }
 
   .cursor:nth-child(1) {
-    background-color: #E74C3C;
+    background-color: white;
     z-index: 1;
   }
   .cursor:nth-child(2) {
