@@ -42,8 +42,8 @@ export default function Skills() {
                         <a href="https://getbootstrap.com" className="hover:translate-y-[-10px]" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" /> </a>
                     </div>
                 </div>
-                <div className="text-center">
-                    <h4  data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 dark:text-teal-600 text-center">🔧Tools</h4><br />
+                <div className="text-center mr-20">
+                    <h4  data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 ml-10 dark:text-teal-600 text-center">🔧Tools</h4><br />
                     <div className="grid grid-cols-4 gap-1 pl-20 ml-10">
                         <div></div>
                         <a href="https://www.linux.org/" className="hover:translate-y-[-10px]" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" /> </a>
