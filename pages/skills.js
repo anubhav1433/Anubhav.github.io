@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Next from "../public/next.png"
-import { useState, useEffect } from "react";
-import CODE from "../public/code.png"
+import { useEffect } from "react";
 import AOS from 'aos'
 
 
@@ -16,7 +15,7 @@ export default function Skills() {
     return (
         <div>
             <h3 data-aos="slide-up" className="fontt animate-pulse text-7xl py-1  dark:text-teal-600 text-center">SKILLS</h3><br /><br /><br /><br /><br /><br />
-            <div  data-aos="slide-up" className="grid lg:grid-cols-2 gap-5 bg-gray-900">
+            <div  data-aos="slide-up" className="grid lg:grid-cols-2 gap-5 bg-gray-700">
                 <div  data-aos="slide-up">
                  <h4  data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 dark:text-teal-600 text-center">Languages & Frameworks</h4><br /><br />
                     <div className="grid grid-cols-4 gap-1 pl-20 ">
@@ -43,7 +42,7 @@ export default function Skills() {
                         <a href="https://getbootstrap.com" className="hover:translate-y-[-10px]" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" /> </a>
                     </div>
                 </div>
-                <div>
+                <div className="text-center">
                     <h4  data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 dark:text-teal-600 text-center">🔧Tools</h4><br />
                     <div className="grid grid-cols-4 gap-1 pl-20 ml-10">
                         <div></div>

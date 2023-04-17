@@ -34,7 +34,7 @@ export default function Home() {
             <Navbar />
             
             <Hero />
-          </section>
+          </section><br/>
           <section id="about" >
             <Aboutt />
           </section><br /><br /><br /><br /><br /><br /><br />
