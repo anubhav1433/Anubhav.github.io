@@ -11,7 +11,7 @@ export default function Experience() {
     AOS.init({
     });
   }, []);
-  return (<div><h3 data-aos="slide-up" className="fontt animate-pulse text-4xl ml-20  dark:text-teal-600 lg:text-center lg:ml-40">EXPERIENCE AND QUALIFICATIONS</h3><br /><br /><br /><br />
+  return (<div><h3 data-aos="slide-up" className="animate-pulse text-4xl ml-20  dark:text-teal-600 lg:text-center lg:ml-40">EXPERIENCE AND QUALIFICATIONS</h3><br /><br /><br /><br />
     <div data-aos="slide-up"className="grid lg:grid-cols-4 gap-11 lg:pr-20 mx-20">
       <div></div>
       <div className=" from-teal-500 w-50 h-30">
