@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Edu from "../public/Education.gif"
 import Exp from "../public/experience.gif"
-import Resp from "../public/reponsibilities.gif"
+import Resp from "../public/responsibilities.gif"
 
 import { useState, useEffect } from "react";
 import AOS from 'aos'
