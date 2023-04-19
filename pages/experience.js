@@ -41,13 +41,13 @@ export default function Experience() {
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className="  mr-10">☁️<span className="lg:ml-10 ml-2 text-center">WEB DEVELOPER</span></h6>
           <p className=" lg:ml-14 ml-10">CodeChef PESUECC</p>
-          <p className="text-center lg:mr-10">Apr'23-Present</p>
+          <p className="text-center lg:mr-10">Apr&apos;23-Present</p>
         </div> <br /><br />
         {/* 1 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className="  mr-10">☁️<span className="lg:ml-10 ml-3 text-center">WEB DEV INTERN</span></h6>
           <p className="ml-20 lg:ml-24">CodeClause</p>
-          <p className="text-center">Apr'23-May'23</p>
+          <p className="text-center">Apr&apos;23-May&apos;23</p>
         </div>
       </div >
       {/* Responsibilities */}
@@ -58,19 +58,19 @@ export default function Experience() {
           <h6 className="  mr-10">☁️<span className="lg:ml-14 ml-8 text-center">SUBCORE OF</span></h6>
           <h6 className="text-center">HOSPITALITY,</h6>
           <p className=" ml-16">SHUNYA PESUECC</p>
-          <p className="text-center ">Oct'22-Present</p>
+          <p className="text-center ">Oct&apos;22-Present</p>
         </div> <br /> <br />
         {/* 2 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className="  mr-10">☁️<span className="lg:ml-10 ml-20 text-center">CORE <span className="ml-20 lg:ml-0 md:ml-20">VOLUNTEER</span></span></h6>
           <p className=" lg:ml-24 ml-20">NGO,UPHAAR</p>
-          <p className="text-center">May'20-Mar'22</p>
+          <p className="text-center">May&apos;20-Mar&apos;22</p>
         </div> <br /> <br />
         {/* 1 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className="  mr-10">☁️<span className="lg:ml-12 ml-2 text-center">SPORTS CAPTAIN</span></h6>
           <p className=" lg:ml-24 ml-14">ST. ANTHONY&apos;S</p>
-          <p className="text-center ">Jan'17-Jan'18</p>
+          <p className="text-center ">Jan&apos;17-Jan&apos;18</p>
         </div>
       </div >
     </div></div>);
