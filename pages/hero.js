@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="text-center">
             <h2 className="text-5xl text-teal-600 font-medium dark:text-teal-400 md:text-6xl text-left">
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi👋,I&apos;m
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi👋,I&apos;m
             </h2>
             <div className=" from-teal-500">
                 <Image src={Intro} />
@@ -15,7 +15,7 @@ export default function Hero() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
                 {/* Looking to apply my skills to contribute to the growth of an organization. */}
-            </p><br/>
+            </p><br />
             <div>
                 <div className=" mb-9 flex w-full justify-center ">
                     <a href="https://www.instagram.com/anubhav.mendhiratta143/" className="text-blue-800 hover:translate-y-[-10px]">
