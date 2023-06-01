@@ -56,7 +56,7 @@ export default function Experience() {
         <h4 className="fontt  text-teal-500 text-center text-3xl">MY RESPONSIBILITIES</h4><br />
         {/* 3 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
-          <h6 className="  mr-10">☁️<span className="lg:ml-14 ml-8 text-center">SUBCORE OF</span></h6>
+          <h6 className="  mr-10">☁️<span className="lg:ml-10 ml-16 text-center">HEAD OF</span></h6>
           <h6 className="text-center">HOSPITALITY,</h6>
           <p className=" ml-16">SHUNYA PESUECC</p>
           <p className="text-center ">Oct&apos;22-Present</p>
