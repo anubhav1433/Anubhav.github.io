@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "id": 7,
+        "title": "Song-Recommendor-System",
+        "description": "The System is used to take a song as an input from the given dataset and with the help of trained ML model it recommends top 10 songs that matches the same vibe.",
+        "image": "song_rec.png",
+        "github": "https://github.com/anubhav1433/Songs-Recommendation-System"
+      },
+      {
         "id": 6,
         "title": "Water-Monitoring-System",
         "description": "The System using ESP32 and HC-SR04 Ultrasonic Sensor with WiFi module is a project that aims to provide an automated and reliable solution for monitoring the water level in various settings.",
