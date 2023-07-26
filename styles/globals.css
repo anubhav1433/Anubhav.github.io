@@ -150,3 +150,9 @@ img.pro:hover{
         display:none;
       }
 }
+
+/* overflow projects condition */
+.overflow{
+  max-height: 550px;
+  overflow-y: scroll;
+}

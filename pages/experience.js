@@ -9,7 +9,7 @@ export default function Experience() {
   return (<div><h3 data-aos="slide-up" className="animate-pulse text-4xl ml-20  dark:text-teal-600 md:text-center ">EXPERIENCE AND QUALIFICATIONS</h3><br /><br /><br /><br />
     <div data-aos="slide-up" className="grid lg:grid-cols-3 md:grid-cols-2 gap-11 lg:pr-20 mx-20">
       {/* Education */}
-      <div className=" from-teal-500 w-50 h-30 hover:bg-gray-900">
+      <div className="overflow-x-scroll from-teal-500 w-50 h-30 hover:bg-gray-900">
         <h4 className="fontt  text-teal-500 text-center text-4xl">MY EDUCATION</h4><br />
         {/* 3 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
@@ -31,7 +31,7 @@ export default function Experience() {
         </div>
       </div >
       {/* Experience */}
-      <div className=" from-teal-500 w-50 h-30 hover:bg-gray-900">
+      <div className="overflow-x-scroll from-teal-500 w-50 h-30 hover:bg-gray-900">
         <h4 className="fontt text-teal-500 text-center text-4xl">MY EXPERIENCE</h4><br />
         {/* 3 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
@@ -52,7 +52,7 @@ export default function Experience() {
         </div>
       </div >
       {/* Responsibilities */}
-      <div className=" from-teal-500 w-50 h-30 hover:bg-gray-900">
+      <div className="overflow-x-scroll from-teal-500 w-50 h-30 hover:bg-gray-900">
         <h4 className="fontt  text-teal-500 text-center text-3xl">MY RESPONSIBILITIES</h4><br />
         {/* 3 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">

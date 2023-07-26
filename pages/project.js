@@ -2,7 +2,6 @@ import data from './data.json';
 import { useState, useEffect } from "react";
 import AOS from 'aos'
 
-
 export default function Project(props) {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
@@ -14,7 +13,7 @@ export default function Project(props) {
         });
     }, []);
     return (
-        <div className=" grid lg:grid-cols-3 gap-5 md:grid-cols-2  text-center">
+        <div className="overflow grid lg:grid-cols-3 gap-5 md:grid-cols-2  text-center">
             {projects.map((project) => (
                 <div key={project.id}>
 
