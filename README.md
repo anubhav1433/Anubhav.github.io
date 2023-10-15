@@ -2,7 +2,7 @@
 It is a static portfolio website to showcase my work and projects which is developed using NextJS, with a clean and professional design.
 <hr>
 <h4>Check it out here</h4>
-👉 <a href="https://anubhavm.vercel.app/">Anubhav</a>
+👉 <a href="https://www.anubhav.tech">Anubhav</a>
 <hr>
 <h2>Installation and Execution</h2>
 <h6>Clone the repository:</h6>
