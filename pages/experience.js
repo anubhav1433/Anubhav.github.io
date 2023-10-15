@@ -33,19 +33,21 @@ export default function Experience() {
       {/* Experience */}
       <div className=" from-teal-500 w-50 h-30 hover:bg-gray-900">
         <h4 className="fontt text-teal-500 text-center text-4xl">MY EXPERIENCE</h4><br />
-        {/* 3 */}
+        {/* 3
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
-          <h6 className="  ">☁️<span className=" text-center">MANY MORE TO COME</span></h6>
-        </div> <br /><br />
+          <h6 className=" ">☁️<span className="text-center">WEB DEV INTERN</span></h6>
+          <p className="ml-9">Dawntown</p>
+          <p className="ml-9">June&apos;23-July&apos;23</p>
+        </div> <br /><br /> */}
         {/* 2 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
-          <h6 className=" ">☁️<span className="text-center">WEB DEVELOPER</span></h6>
+          <h6 className="">☁️<span className="text-center">WEB DEVELOPER</span></h6>
           <p className="ml-9">CodeChef PESUECC</p>
           <p className="ml-9">Apr&apos;23-Present</p>
         </div> <br /><br />
         {/* 1 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
-          <h6 className=" ">☁️<span className="text-center">WEB DEV INTERN</span></h6>
+          <h6 className="">☁️<span className="text-center">WEB DEV INTERN</span></h6>
           <p className="ml-10">CodeClause</p>
           <p className="ml-10">Apr&apos;23-May&apos;23</p>
         </div>
@@ -53,18 +55,24 @@ export default function Experience() {
       {/* Responsibilities */}
       <div className=" from-teal-500 w-50 h-30 hover:bg-gray-900">
         <h4 className="fontt  text-teal-500 text-center text-3xl ">MY<br></br> RESPONSIBILITIES</h4><br />
+        {/* 4 */}
+        <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
+          <h6 className=" ">☁️<span className="text-center">HEAD OF CAMPAIGNING,</span></h6>
+          <p className=" ml-8">WEAL PESUECC</p>
+          <p className="ml-8">June&apos;23-Present</p>
+        </div> <br />
         {/* 3 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className=" ">☁️<span className="text-center">HEAD OF HOSPITALITY,</span></h6>
           <p className=" ml-8">SHUNYA PESUECC</p>
           <p className="ml-8">Oct&apos;22-Present</p>
-        </div> <br /> <br />
+        </div> <br /> 
         {/* 2 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className=" ">☁️<span className="text-center">CORE VOLUNTEER</span></h6>
           <p className="ml-10">NGO,UPHAAR</p>
           <p className="ml-10">May&apos;20-Mar&apos;22</p>
-        </div> <br /> <br />
+        </div> <br /> 
         {/* 1 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className="">☁️<span className="text-center">SPORTS CAPTAIN</span></h6>

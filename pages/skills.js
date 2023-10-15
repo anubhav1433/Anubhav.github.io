@@ -15,7 +15,7 @@ export default function Skills() {
     return (
         <div>
             <h3 data-aos="slide-up" className="fontt animate-pulse text-7xl py-1  dark:text-teal-600 text-center">SKILLS</h3><br /><br /><br /><br /><br /><br />
-            <div data-aos="slide-up" className="grid lg:grid-cols-2 gap-5 bg-gray-700">
+            <div data-aos="slide-up" className="grid lg:grid-cols-2 gap-5 hover:bg-gray-900">
                 <div data-aos="slide-up">
                     <h4 data-aos="slide-up" className="font-burtons animate-pulse text-4xl py-1 dark:text-teal-600 text-center">Languages & Frameworks</h4><br /><br />
                     <div className="grid grid-cols-4 gap-1 pl-20 ">

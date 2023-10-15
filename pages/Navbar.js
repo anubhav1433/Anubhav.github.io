@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import logo from "../public/mylogo.png"
 import Image from "next/image";
+import ThemeButton from './ThemeButton';
 
 const navItems = [
   { name: 'Home', link: '#home' },
@@ -37,16 +38,13 @@ const Navbar = () => {
 
   return (
     <nav className="py-10 ease-in-out 0.3s  mb-12 lg:flex justify-between dark:text-gray-900 lg:py-4 lg:px-12">
-      <a href='#'><div className="hover:animate-spin lg:flex-grow h-20 w-20 block mt-2 lg:inline-block lg:mt-0  py-2 rounded  mr-2 text-left fixed"><button><Image src={logo} className="scale-100" /></button></div></a>
+      <a href='#'><div className=" lg:flex-grow h-20 w-20 block mt-2 lg:inline-block lg:mt-0  py-2 rounded  mr-2 text-left fixed"><button><Image src={logo} className="scale-100" /></button></div></a>
       <div className='text-md text-center font-bold text-teal-600 lg:flex-grow lg:mr-20 lg:mt-5'>
         <ul className="  text-right ml-20 justify-center items-center h-16">
           {navItems.map((item) => (
             <li key={item.link} className="block  lg:inline-block hover:text-white px-4 py-2 rounded hover:bg-blue-900 lg:mr-2">
               <Link href={`/${item.link}`}>
-                <a
-                  className={`${activeSection === item.link ? 'text-yellow-500' : ''
-                    }`}
-                >
+                <a>
                   {item.name}
                 </a>
               </Link>
@@ -64,6 +62,7 @@ const Navbar = () => {
             Resume
           </a>
         </li>
+        {/* <li><ThemeButton/></li> */}
       </ul>
     </nav>
   );

@@ -29,7 +29,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <main className="back  ">
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         <section id="#hero">
           <Navbar />
 
