@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "id": 8,
+        "title": "Analyzing the Impact of RPL Routing Attacks on the Smart City Ecosystems",
+        "description": "Conducted research on the effects of various RPL attacks—Sinkhole, Version Number, BlackHole, and DIS Flooding by introducing malicious nodes in smart city simulations using Cooja.",
+        "image": "rpl_attacks.png",
+        "github": "https://ieeexplore.ieee.org/document/10396069"
+      },
+      {
         "id": 7,
         "title": "Song-Recommendor-System",
         "description": "The System is used to take a song as an input from the given dataset and with the help of trained ML model it recommends top 10 songs that matches the same vibe.",

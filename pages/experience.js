@@ -15,7 +15,7 @@ export default function Experience() {
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className="  ">☁️<span className=" text-center"> B-TECH,CSE</span></h6>
           <p className=" ml-10">PES UNIVERSITY,</p>
-          <p className="ml-10">Bangalore<br />2021-2025<br />CGPA: 9.21</p>
+          <p className="ml-10">Bangalore<br />2021-2025<br />CGPA: 9.09</p>
         </div> <br />
         {/* 2 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
@@ -41,9 +41,9 @@ export default function Experience() {
         </div> <br /><br /> */}
         {/* 2 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
-          <h6 className="">☁️<span className="text-center">WEB DEVELOPER</span></h6>
-          <p className="ml-9">CodeChef PESUECC</p>
-          <p className="ml-9">Apr&apos;23-Present</p>
+          <h6 className="">☁️<span className="text-center">SUMMER INTERN</span></h6>
+          <p className="ml-9">PES UNIVERSITY</p>
+          <p className="ml-9">June&apos;23-July&apos;23</p>
         </div> <br /><br />
         {/* 1 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
@@ -59,19 +59,19 @@ export default function Experience() {
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className=" ">☁️<span className="text-center">HEAD OF CAMPAIGNING,</span></h6>
           <p className=" ml-8">WEAL PESUECC</p>
-          <p className="ml-8">June&apos;23-Present</p>
+          <p className="ml-8">June&apos;23-Nov&apos;23</p>
         </div> <br />
         {/* 3 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
           <h6 className=" ">☁️<span className="text-center">HEAD OF HOSPITALITY,</span></h6>
           <p className=" ml-8">SHUNYA PESUECC</p>
-          <p className="ml-8">Oct&apos;22-Present</p>
+          <p className="ml-8">Oct&apos;22-Jan&apos;24</p>
         </div> <br /> 
         {/* 2 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
-          <h6 className=" ">☁️<span className="text-center">CORE VOLUNTEER</span></h6>
-          <p className="ml-10">NGO,UPHAAR</p>
-          <p className="ml-10">May&apos;20-Mar&apos;22</p>
+          <h6 className=" ">☁️<span className="text-center">TECHNICAL LEAD</span></h6>
+          <p className="ml-10">CodeChef PESUECC</p>
+          <p className="ml-10">Apr&apos;23-Jan&apos;24</p>
         </div> <br /> 
         {/* 1 */}
         <div data-aos="slide-up" className="text-2xl text-white hover:text-teal-500">
